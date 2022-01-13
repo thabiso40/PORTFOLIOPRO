@@ -55,7 +55,7 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 50 },
     { skill: "React JS", ratingPercentage: 50 },
-    { skill: "SQL/T-SQL", ratingPercentage: 89 },
+    { skill: "SQL/T-SQL", ratingPercentage: 50 },
     { skill: ".NET", ratingPercentage: 50 },
     { skill: "XAMARIN", ratingPercentage: 50 },
     { skill: "Core Java", ratingPercentage: 50 },
@@ -71,6 +71,7 @@ const Resume = (props) => {
         "A Personal Portfolio website to showcase all my details and projects at one place.",
       subHeading: "Technologies Used: React JS, Bootsrap",
     },
+    
     {
       title: "Mobile E-shop ",
       duration: { fromDate: "2020", toDate: "2021" },

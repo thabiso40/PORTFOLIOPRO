@@ -56,7 +56,8 @@ const Resume = (props) => {
     { skill: "JavaScript", ratingPercentage: 50 },
     { skill: "React JS", ratingPercentage: 50 },
     { skill: "SQL/T-SQL", ratingPercentage: 89 },
-    { skill: "C#", ratingPercentage: 50 },
+    { skill: ".NET", ratingPercentage: 50 },
+    { skill: "XAMARIN", ratingPercentage: 50 },
     { skill: "Core Java", ratingPercentage: 50 },
     { skill: "HTML", ratingPercentage: 70 },
     { skill: "CSS", ratingPercentage: 70 },
@@ -180,8 +181,8 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        heading="Coding"
+        description="I enjoy coding and learning new frameworks and technologies."
       />
       <ResumeHeading
         heading="Music"
@@ -216,8 +217,8 @@ const Resume = (props) => {
       >
         <img
           className="bullet-logo"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
-          alt="B"
+          src={require(`../../assets/Resume/${bullet.logoSrc}`)}
+          alt="oops no internet"
         />
         <span className="bullet-label">{bullet.label}</span>
       </div>
@@ -249,10 +250,6 @@ const Resume = (props) => {
       id={props.id || ""}
     >
 
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
         <div className="resume-card">

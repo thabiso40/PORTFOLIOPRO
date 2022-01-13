@@ -23,7 +23,7 @@ export default function AboutMe(props) {
                 "Xamarin Developer",
                 "JAVA Developer",
                 "Building REST API",
-                "Managing database",
+                "Developing/Managing database",
             ],
             heading:"Here Are A Few Highlights:"
         },

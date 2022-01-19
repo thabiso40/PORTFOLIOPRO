@@ -39,7 +39,7 @@ export default function AboutMe(props) {
         )
     };
     return (
-        <div className='about-me-container screen-container' id={props.id ||''}>
+        <div className='about-me-container screen-container fade-in' id={props.id ||''}>
                         <br/>
                         <br/>
                         <br/>
@@ -57,9 +57,11 @@ export default function AboutMe(props) {
                             </div>
                             <div className='about-me-options'>
 
-                            <button className="btn primary-btn">
-                        {""}
-                        Hire Me{" "}
+                            <button className="btn primary-btn"
+                             onClick={()=> scrollservice.scrollHandler.scrollToHireMe()}
+                            >
+                        
+                        Hire Me
                     </button>
                     <a href='CurriculumVitae.pdf' download='CurriculumVitae.pdf'>
                         <button className='btn highlighted-btn'>Get Resume</button>

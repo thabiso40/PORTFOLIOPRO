@@ -187,10 +187,10 @@ const Resume = (props) => {
       />
       <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        description="Listening to  music is something i enjoy, as it helps me relax and therefore i become more productive."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
+        heading="Gaming"
         description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
       />
     </div>,

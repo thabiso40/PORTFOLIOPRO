@@ -57,9 +57,10 @@ export default function Profile() {
                     </span>
                 </div>
                 <div className='profile-options'>
-                    <button className="btn primary-btn">
-                        {""}
-                        Hire Me{" "}
+                    <button className="btn primary-btn" 
+                    onClick={()=> ScrollService.scrollHandler.scrollToHireMe()}
+                    >
+                        Hire Me
                     </button>
                     <a href='CurriculumVitae.pdf' download='CurriculumVitae.pdf'>
                         <button className='btn highlighted-btn'>Get Resume</button>
